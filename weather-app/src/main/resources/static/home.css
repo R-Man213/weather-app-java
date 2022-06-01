@@ -1,0 +1,41 @@
+body,html{
+    height: 100%;
+    overflow: hidden;
+}
+
+.bg-image{
+    background-image: url("images/pexels-pixabay-531756.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100%;
+}
+
+.main{
+    padding-top: 15em;
+}
+
+.grey-box{
+    background-color: rgba(0,0,0,.7);
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 25px;
+    border: 4px solid black;
+    color:#fff;
+    backdrop-filter: blur(6px);
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+form{
+    height: 18%;
+}
+
+input{
+    border-radius: 10px;
+}
+
+button{
+    margin-top: 10px;
+    border-radius: 10px;
+}
